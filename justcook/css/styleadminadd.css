@@ -1,0 +1,143 @@
+@import url(./utils.css);
+
+/*RESET VALORES PREDETERMINADOS*/
+*{
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.nav-actual{
+    color: var(--clr-red);
+    cursor: default
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: var(--fw-EB);
+    color: var(--clr-red);
+    margin-left: 2rem;
+}
+
+.navbar-toggler{
+    margin-right: 2rem;
+}
+
+.offcanvas{
+    max-width: 13%;
+}
+
+.nav-item{
+    font-size: 2rem;
+    margin-left: 5%;
+}
+
+.nav-item .nav-link:hover{
+    color: var(--clr-red);
+}
+
+.navbar-toggler{
+    padding: 0.5rem 1rem;
+}
+
+.admin-list{
+    min-width: 90%;
+}
+
+.admin-list .form{
+    margin-top: 12rem;
+    background: var(--trans-black-200);
+    border-radius: 1.5rem;
+}
+
+.admin-list .form .add-form{
+    padding: 1.5rem;
+    color: var(--clr-red);
+}
+
+.admin-list .form .add-form .row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-list .form .add-form .row-1 .form-check{
+    margin-left: 2rem;
+}
+
+.admin-list .form .add-form .row-1 .form-check .form-check-label{
+    font-size: 1.2rem;
+    font-weight: var(--fw-SB);
+}
+
+.admin-list .form .add-form .row-1 .input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.admin-list .form .add-form .row-1 .input-container label{
+    font-size: 1.2rem;
+    font-weight: var(--fw-SB);
+    margin-bottom: 0.5rem;
+}
+
+.admin-list .form .add-form .row-1 .input-container .input-txta{
+    background: var(--trans-black-200);
+    border-radius: .5rem;
+    width: 25rem;
+    padding: 1rem;
+}
+
+.admin-list .form .add-form .row-1 .input-container .input-name{
+    width: 100%;
+    background: var(--trans-black-200);
+    height: 2rem;
+    border-radius: .5rem;
+    padding: 0 .5rem;
+}
+
+.admin-list .form .add-form .row-1 .input-container .selector{
+    width: 100%;
+    background: var(--trans-black-200);
+    height: 2rem;
+    border-radius: .5rem;
+    padding: 0 .5rem;
+}
+
+.admin-list .form .add-form .row-1 .form-check-input:checked{
+    background-color: var(--clr-red);
+    border-color: var(--clr-red);
+}
+
+#preview{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+/*.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    print-color-adjust: exact;
+}*/
+
+
+
+

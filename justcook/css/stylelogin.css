@@ -1,0 +1,102 @@
+@import url(./utils.css);
+
+/*RESET VALORES PREDETERMINADOS*/
+*{
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+/*REGLAS DE LOGIN*/
+.login{
+    min-height: var(--ht-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, var(--trans-black-400), var(--trans-black-400)), url(../img/userwindows.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login .popuplogin{
+    background: linear-gradient(135deg, var(--trans-white-200), var(--trans-white-100));
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+    border-radius: var(--br-150);
+    box-shadow: 0 8px 32px 0 var(--trans-black-400);
+    width: 60vh;
+    justify-content: center;
+}
+
+.login .popuplogin .login-title{
+    margin-top: var(--mg-200);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    font-size: var(--fs-300);
+}
+
+.login .popuplogin .log-form{
+    display: flexbox;
+    justify-content: center;
+    margin-top: var(--mg-100);
+}
+
+.login .popuplogin .log-form .log-icon{
+    color: var(--clr-white);
+    padding: 0 .8rem;
+    margin-right: .2rem;
+    font-size: var(--fs-150);
+    border-right: .2rem solid var(--clr-white);
+}
+
+.login .popuplogin .log-form .log-inp{
+    font-size: var(--fs-130);
+    margin-left: 0.5rem;
+    background: none;
+    color: var(--clr-white);
+}
+
+.login .popuplogin .log-form .spacer{
+    display: flex;
+    align-items: center;
+    width: var(--wt-60);
+    background: var(--trans-black-300);
+    padding: var(--pd-100) 0;
+    border-radius: .8rem;
+}
+
+.login .popuplogin .log-form .input-content{
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem 0;
+}
+
+.login .popuplogin .log-form .submit{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--mg-200);
+}
+
+.login .popuplogin .alternative{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--mg-150);
+    margin-bottom: var(--mg-250);
+    font-size: var(--fs-120);
+}
+
+.login .popuplogin .alternative p{
+    color: var(--clr-white);
+    font-weight: var(--fw-L);
+}
+
+.login .popuplogin .alternative a{
+    color: var(--clr-red);
+    font-weight: var(--fw-SB);
+}

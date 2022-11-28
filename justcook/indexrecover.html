@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover</title>
+
+    <!--Link de la librería CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/stylerecover.css">
+
+</head>
+<body>
+    <!--HEADER SECTION-->
+    <header class="header">
+        <a href="./indexlogin.html" class="logo">JUST COOK</a>
+    </header>
+    
+    <!--RECOVERY SECTION-->
+    <section class="recover" id="recover">
+        <div class="popuprecover">
+            <h2 class="recover-title">Recover Password</h2>
+            
+            <form action="" class="reco-form">
+                <p class="instruction">Digite su correo electronico</p>
+                <div class="input-content">
+                    <div class="spacer">
+                        <label class="fas fa-at reco-icon"></label>
+                        <input class="reco-inp" type="text" id="#email" placeholder="Email">
+                    </div>
+                </div>
+
+                <p class="instruction">Digite el código enviado a su correo</p>
+                <div class="input-content">
+                    <div class="spacer">
+                        <label class="fas fa-asterisk reco-icon"></label>
+                        <input class="reco-inp" type="text" id="pin" placeholder="Codigo">
+                    </div>    
+                </div>
+
+                <p class="instruction">Digite su nueva contraseña</p>
+                <div class="input-content">
+                    <div class="spacer">
+                        <label class="fas fa-key reco-icon"></label>
+                        <input class="reco-inp" type="password" id="password" placeholder="Contraseña">
+                    </div>    
+                </div>
+
+                <div class="submit">
+                    <input type="submit" vlaue="submit" class="btn" id="enviar" href="./indexlogin.html">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

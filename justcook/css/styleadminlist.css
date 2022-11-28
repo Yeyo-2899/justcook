@@ -1,0 +1,77 @@
+@import url(./utils.css);
+
+/*RESET VALORES PREDETERMINADOS*/
+*{
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.add{
+    position: absolute;
+    right: 9%;
+    top: 7.4rem;
+}
+
+.nav-actual{
+    color: var(--clr-red);
+    cursor: default
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: var(--fw-EB);
+    color: var(--clr-red);
+    margin-left: 2rem;
+    cursor: default;
+}
+
+.navbar-toggler{
+    margin-right: 2rem;
+}
+
+.offcanvas{
+    max-width: 13%;
+}
+
+.nav-item{
+    font-size: 2rem;
+    margin-left: 5%;
+}
+
+.nav-item .nav-link:hover{
+    color: var(--clr-red);
+}
+
+.navbar-toggler{
+    padding: 0.5rem 1rem;
+}
+
+.table{
+    position: absolute;
+    left: 10%;
+    top: 12rem;
+    max-width: 80%;
+    background: var(--trans-black-100);
+    border-radius: .5rem;
+}
+
+.table th{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.table td{
+    text-align: center;
+}
+
+.table a{
+    padding: 0 .4rem;
+}
+
+

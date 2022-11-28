@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --primary-font: 'Poppins', sans-serif;
+
+    /*FONT WIDTH*/
+    --fw-T: 100;
+    --fw-EL: 200;
+    --fw-L: 300;
+    --fw-R: 400;
+    --fw-M: 500;
+    --fw-SB: 600;
+    --fw-B: 700;
+    --fw-EB: 800;
+
+    /*FONT SICE*/
+    --fs-90: .9rem;
+    --fs-100: 1rem;
+    --fs-110: 1.1rem;
+    --fs-120: 1.2rem;
+    --fs-130: 1.3rem;
+    --fs-140: 1.4rem;
+    --fs-150: 1.5rem;
+    --fs-160: 1.6rem;
+    --fs-170: 1.7rem;
+    --fs-180: 1.8rem;
+    --fs-200: 2rem;
+    --fs-220: 2.2rem;
+    --fs-230: 2.3rem;
+    --fs-240: 2.4rem;
+    --fs-250: 2.5rem;
+    --fs-260: 2.6rem;
+    --fs-280: 2.8rem;
+    --fs-300: 3rem;
+    --fs-500: 5rem;
+    --fs-700: 7rem;
+    --fs-800: 8rem;
+
+    /*COLORS*/
+    --blur: blur(10px);
+
+    --trans:rgba(255,255,255,0);
+    --trans-red-100: rgba(206,43,47,.8);
+    --trans-red-200: rgba(206,43,47,.65);
+    --trans-black-100: rgb(0,0,0,.03);
+    --trans-black-200: rgb(0,0,0,.04);
+    --trans-black-300: rgb(0,0,0,.22);
+    --trans-black-400: rgb(0,0,0,.4);
+    --trans-black-500: rgb(0,0,0,.7);
+    --trans-white-100: rgba(255,255,255,0);
+    --trans-white-200: rgba(255,255,255,.1);
+    --trans-white-300: rgba(255,255,255,.18);
+    --trans-white-400: rgba(255,255,255,.37);
+
+    --clr-white: #fff;
+    --clr-red: #DB313E;
+    --clr-darkred: #6d1920;
+    --clr-black: #1E1E1E;
+    --clr-black-100: #2c2c2c;
+    --clr-grey: #5B5B5B;
+
+    /*HEIGTHS*/
+    --ht-15: 15vh;
+    --ht-100: 100vh;
+    --ht-123: 12.3rem;
+    --ht-150: 15rem;
+    --ht-250: 25rem;
+    --ht-260: 26rem;
+    --ht-380: 38rem;
+    --ht-450: 45rem;
+
+    /*WIDTHS*/
+    --wt-60: 60%;
+    --wt-70: 70%;
+    --wt-80: 80%;
+    --wt-85: 85%;
+    --wt-90: 90%;
+    --wt-94: 94%;
+    --wt-95: 95%;
+    --wt-97: 97%;
+    --wt-100: 100%;
+    --wt-110: 110%;
+
+    /*GAPS*/
+    --gap-50: .5rem;
+    --gap-100: 1rem;
+    --gap-150: 1.5rem;
+    --gap-200: 2rem;
+    --gap-300: 3rem;
+    --gap-400: 4rem;
+
+    /*MARGINS*/
+    --mg-10: .1rem;
+    --mg-40: .4rem;
+    --mg-50: .5rem;
+    --mg-60: .6rem;
+    --mg-100: 1rem;
+    --mg-150: 1.5rem;
+    --mg-200: 2rem;
+    --mg-250: 2.5rem;
+    --mg-350: 3.5rem;
+    --mg-400: 4rem;
+    --mg-500: 5rem;
+
+    /*PADDINGS*/
+    --pd-50: .5rem;
+    --pd-70: .7rem;
+    --pd-100: 1rem;
+    --pd-150: 1.5rem;
+    --pd-200: 2rem;
+    --pd-300: 3rem;
+
+    /*SPACERS*/
+    --sp-50: .5rem;
+    --sp-100: 1rem;
+    --sp-200: 2rem;
+    --sp-240: 2.4rem;
+    --sp-300: 3rem;
+    --sp-370: 3.7rem;
+    --sp-1100: 11rem;
+    --sp-1200: 12rem;
+
+    /*BORDER RADIUS*/
+    --br-100: 1rem;
+    --br-150: 1.5rem;
+}

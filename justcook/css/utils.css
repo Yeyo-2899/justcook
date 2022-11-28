@@ -1,0 +1,204 @@
+@import url(./vars.css);
+
+.highlighter{
+    color: var(--clr-red);
+}
+
+.thumb{
+    width:15%;
+}
+
+
+/*REGLAS DEL HTML*/
+html{
+    font-size: 90%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--white);
+    border-radius: .5rem;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+
+/*REGLAS DEL HEADER*/
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 4%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo{
+    font-size: 3rem;
+    font-weight: var(--fw-EB);
+    color: var(--clr-red);
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+    color: var(--clr-black);
+}
+
+.header .navbar a:hover{
+    color: var(--clr-red);
+    border-bottom: .15rem solid var(--clr-red);
+    transition: .1s;
+}
+
+.header .icons div{
+    color: var(--clr-black);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: var(--clr-red);
+    transition: .1s;
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+
+/*REGLAS DEL BUSCADOR*/
+.search-form{
+    position: absolute;
+    top: 85%; 
+    right: 4%;
+    background: var(--trans-black-100);
+    width: 30rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-radius: 1rem;
+}
+ 
+.search-form.active{
+    transform: scaleY(1);
+    transition: .2s;
+}
+ 
+.search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--clr-black);
+    background: var(--trans);
+    padding: 1rem;
+    text-transform: none;
+}
+ 
+.search-form .search-buttons{
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+    color: var(--clr-red);
+}
+ 
+.search-form .search-buttons:hover{
+    color: var(--clr-black);
+}
+
+
+/*REGLAS DE LOS FILTROS*/
+.filters-container{
+    position: absolute;
+    top: 132.5%; 
+    right: 4%;
+    background: var(--trans-black-400);
+    width: 30rem;
+    display: table-column;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-radius: 1rem;
+}
+
+.filters-container.active{
+    transform: scaleY(1);
+    transition: .2s;
+}
+
+.filters-container .filters{
+    padding: .5rem 2rem;
+} 
+
+.filters-container .filters .filter-title{
+    margin-top: 1.2rem;
+    color: var(--clr-red);
+    font-size: 1.5rem;
+}
+
+.filters-container .filters .filter-list{
+    margin-bottom: 1.2rem;
+}
+
+.filters-container .filters .filter-list .list-element{
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+}
+
+.filters-container .filters .filter-list .list-element:hover{
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.filters-container .filters .filter-list .list-element a{
+    color: var(--clr-white);
+}
+
+.filters-container .filters .filter-list .list-element a:hover{
+    color: var(--clr-red);
+}
+
+
+
+/*BUTTONS*/
+.btn{
+    background: var(--trans-black-100);
+    color: var(--clr-red);
+    border: .2rem solid var(--clr-red);
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: var(--fw-SB);
+    border-radius: .7rem;
+}
+
+.btn:hover{
+    background: var(--clr-red);
+    color: var(--clr-white);
+    transition: .2s;
+}
+
+.add{
+    transform: scale(0.75);
+}
